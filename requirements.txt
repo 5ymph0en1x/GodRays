@@ -1,0 +1,16 @@
+arch
+bravado
+colorama
+finplot
+logzero
+matplotlib
+numpy == 1.22.3
+pandas == 1.2.4
+peakdetect
+python-dateutil
+pytz
+requests
+pyyaml
+shapely
+stattools
+websocket-client

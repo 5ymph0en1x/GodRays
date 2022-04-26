@@ -502,7 +502,7 @@ class Live_Analysis:
         layout.setColumnMinimumWidth(3, 30)
 
         panel.indicators = QComboBox(panel)
-        [panel.indicators.addItem(i) for i in 'Clean:Few indicators:Moar indicators'.split(':')]
+        panel.indicators.addItem('Clean')
         panel.indicators.setCurrentIndex(0)
         layout.addWidget(panel.indicators, 0, 4)
         # panel.indicators.currentTextChanged.connect(self.load_asset)

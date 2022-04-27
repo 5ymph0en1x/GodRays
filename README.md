@@ -29,7 +29,7 @@ Run `python GR_Analyzer_v1.0.py` and a window will pop up, allowing you to set y
 
 * History -> Number of periods to analyze
 * Tolerance -> Tolerance in $ for the Triple Crosses Detection
-* Tolerance 2 -> Tolerance for the Parallelism Detection
+* Tolerance 2 -> method_1: Tolerance for the Parallelism Detection / method_2: Tolerance for the Alignment Detection
 * Method_1 -> Simple scan of parallel forcelines
 * Method_2 -> Simple scan of crossing points alignment
 * Method_3 -> Adding Complex Multi-TimeFrames Analysis to method_2 (H1, M5 and M1)
